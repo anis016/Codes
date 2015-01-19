@@ -30,3 +30,33 @@ int main() {
 
 	return 0;
 }
+
+/* More faster way
+
+#define MAXP 31623
+
+long a[MAXP], isPrime[MAXP];
+
+long generatePrime() {
+	long i, j, t, k;
+	long M = (long)sqrt((double)MAXP);
+	
+	for(i=3; i<=M; i+=2) {
+		if(a[i]==0)
+			for(j=i*i;j<=MAXP;j=j+i+i) {
+				a[j]=1;
+			}
+	}
+
+	isPrime[0]=2;
+	for(k=3, t=1; k <= MAXP; k=k+2) {
+		if(a[k]==0) {
+			isPrime[t]=k;
+			t++;
+		}
+	}
+
+	return t;
+}
+
+*/
