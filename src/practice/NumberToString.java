@@ -1,5 +1,8 @@
 package practice;
 
+/**
+ * Convert a Number to String.
+ */
 public class NumberToString {
 
     public static String numberToString(int number) {
@@ -27,16 +30,13 @@ public class NumberToString {
 
         String res;
 
-        /*res = numberToString(1234134);
+        res = numberToString(1234134);
         System.out.println(res);
 
         res = numberToString(-6672834);
         System.out.println(res);
 
         res = numberToString(0);
-        System.out.println(res);*/
-
-        res = numberToString(00010);
         System.out.println(res);
     }
 }

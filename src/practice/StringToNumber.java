@@ -1,7 +1,7 @@
 package practice;
 
 /**
- * Convert a number
+ * Convert a String to Number.
  */
 public class StringToNumber {
 
