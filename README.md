@@ -1,5 +1,3 @@
 Codes
 =====
-Will be used for maintaining the coding of online judges.
-Added Judges:
-1. UVA
+Will be used for maintaining the coding of Online judges and Practice problems.
